@@ -1,0 +1,186 @@
+.label {
+  --color-label: var(--white);
+  --fw-label: 500;
+  font-style: normal;
+  line-height: 125%;
+  font-weight: var(--fw-label);
+  color: var(--color-label);
+}
+
+.label__40 {
+  font-size: 22px;
+}
+
+@media (min-width: 1200px) {
+  .label__40 {
+    font-size: 40px;
+  }
+}
+
+.label__32 {
+  font-size: 24px;
+}
+
+@media (min-width: 1200px) {
+  .label__32 {
+    font-size: 32px;
+  }
+}
+
+.label__24 {
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  .label__24 {
+    font-size: 24px;
+  }
+}
+
+.label__20 {
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  .label__20 {
+    font-size: 20px;
+  }
+}
+
+.label__16 {
+  font-size: 18px;
+}
+
+.label__16 {
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  .label__16 {
+    font-size: 16px;
+  }
+}
+
+.label__14 {
+  font-size: 12px;
+}
+
+@media (min-width: 1200px) {
+  .label__14 {
+    font-size: 14px;
+  }
+}
+
+.label__13 {
+  font-size: 10px;
+}
+
+@media (min-width: 1200px) {
+  .label__13 {
+    font-size: 12px;
+  }
+}
+
+.label__12 {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .label__12 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .label__12 {
+    font-size: 12px;
+  }
+}
+
+.label__10 {
+  font-size: 10px;
+}
+
+.label__8 {
+  font-size: 8px;
+}
+
+.label__white {
+  color: var(--white);
+}
+
+.label__purple {
+  color: var(--purple);
+}
+
+.label__dark_purple {
+  color: var(--dark-purple);
+}
+
+.label__black {
+  color: var(--black);
+}
+
+.label__green__500 {
+  color: var(--green-500);
+}
+
+.label__green__900 {
+  color: var(--green-900);
+}
+
+.label__blue__500 {
+  color: var(--blue-500);
+}
+
+.label__black__900 {
+  color: var(--black-900);
+}
+
+.label__gray {
+  color: var(--gray);
+}
+
+.label__gray__200 {
+  color: var(--gray-200);
+}
+
+.label__text_banner {
+  color: var(--text-banner);
+}
+
+.label__green {
+  color: var(--green-500);
+}
+
+.label__brown {
+  color: var(--brown);
+}
+
+.label__text_ido {
+  color: var(--text-ido);
+}
+
+.label__orange {
+  color: var(--orange);
+}
+
+.label__red {
+  color: var(--red-900);
+}
+
+.label__bold {
+  --fw-label: 700;
+}
+
+.label__semi_bold {
+  --fw-label: 600;
+}
+
+.label__medium {
+  --fw-label: 500;
+}
+
+.label__normal {
+  --fw-label: 400;
+}

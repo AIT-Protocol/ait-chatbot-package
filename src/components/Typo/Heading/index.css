@@ -1,0 +1,143 @@
+.heading {
+  line-height: 125%;
+  --text-color: var(--white);
+  --fw-label: 700;
+  font-weight: var(--fw-label);
+  color: var(--text-color);
+}
+
+.heading__uppercase {
+  text-transform: uppercase;
+}
+
+.heading__bold {
+  --fw-label: 700;
+}
+
+.heading__semi_bold {
+  --fw-label: 600;
+}
+
+.heading__medium {
+  --fw-label: 500;
+}
+
+.heading__normal {
+  --fw-label: 400;
+}
+
+.heading__white {
+  color: var(--white);
+}
+
+.heading__black {
+  color: var(--black);
+}
+
+.heading__black__900 {
+  color: var(--black-900);
+}
+
+.heading__green__500 {
+  color: var(--green-500);
+}
+
+.heading__green__900 {
+  color: var(--green-900);
+}
+
+.heading__gray {
+  color: var(--gray);
+}
+
+.heading__gray__400 {
+  color: var(--gray-400);
+}
+
+.heading__brown {
+  color: var(--brown);
+}
+
+.heading__red {
+  color: var(--red);
+}
+
+.heading__blue {
+  color: var(--blue);
+}
+
+.heading__48 {
+  font-size: 24px;
+}
+
+.heading__36 {
+  font-size: 36px;
+}
+
+.heading__32 {
+  font-size: 32px;
+}
+
+.heading__30 {
+  font-size: 30px;
+}
+
+.heading__28 {
+  font-size: 18px;
+}
+
+.heading__24 {
+  font-size: 16px;
+}
+
+.heading__20 {
+  font-size: 16px;
+}
+
+.heading__18 {
+  font-size: 18px;
+}
+
+.heading__16 {
+  font-size: 10px;
+}
+
+.heading__14 {
+  font-size: 14px;
+}
+
+.heading__12 {
+  font-size: 10px;
+}
+
+.heading__10 {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .heading__24 {
+    font-size: 24px;
+  }
+
+  .heading__16 {
+    font-size: 16px;
+  }
+
+  .heading__12 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heading__48 {
+    font-size: 48px;
+  }
+
+  .heading__28 {
+    font-size: 28px;
+  }
+
+  .heading__20 {
+    font-size: 20px;
+  }
+}

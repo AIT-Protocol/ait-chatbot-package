@@ -1,0 +1,105 @@
+.paragraph {
+	 line-height: 125%;
+	 --text-color: var(--white);
+	 --fw-label: 500;
+	 font-weight: var(--fw-label);
+	 color: var(--text-color);
+}
+ .paragraph__bold {
+	 --fw-label: 700;
+}
+ .paragraph__semi_bold {
+	 --fw-label: 600;
+}
+ .paragraph__medium {
+	 --fw-label: 500;
+}
+ .paragraph__normal {
+	 --fw-label: 400;
+}
+ .paragraph__white {
+	 color: var(--white);
+}
+ .paragraph__black {
+	 color: var(--black);
+}
+ .paragraph__black__900 {
+	 color: var(--black-900);
+}
+ .paragraph__green__900 {
+	 color: var(--green-900);
+}
+ .paragraph__green__500 {
+	 color: var(--green-500);
+}
+ .paragraph__text_ido {
+	 color: var(--text-ido);
+}
+ .paragraph__gray {
+	 color: var(--gray);
+}
+ .paragraph__20 {
+	 font-size: 12px;
+}
+ @media (min-width: 768px) {
+	 .paragraph__20 {
+		 font-size: 16px;
+	}
+}
+ @media (min-width: 1200px) {
+	 .paragraph__20 {
+		 font-size: 20px;
+	}
+}
+ .paragraph__16 {
+	 font-size: 16px;
+}
+ .paragraph__15 {
+	 font-size: 10px;
+}
+ @media (min-width: 768px) {
+	 .paragraph__15 {
+		 font-size: 12px;
+	}
+}
+ .paragraph__14 {
+	 font-size: 12px;
+}
+ @media (min-width: 768px) {
+	 .paragraph__14 {
+		 font-size: 14px;
+	}
+}
+ .paragraph__13 {
+	 font-size: 10px;
+}
+ @media (min-width: 768px) {
+	 .paragraph__13 {
+		 font-size: 12px;
+	}
+}
+ .paragraph__12 {
+	 font-size: 14px;
+}
+ @media (min-width: 768px) {
+	 .paragraph__12 {
+		 font-size: 11px;
+	}
+}
+ @media (min-width: 1200px) {
+	 .paragraph__12 {
+		 font-size: 12px;
+	}
+}
+ .paragraph__10 {
+	 font-size: 8px;
+}
+ @media (min-width: 768px) {
+	 .paragraph__10 {
+		 font-size: 10px;
+	}
+}
+ .paragraph__8 {
+	 font-size: 8px;
+}
+ 
