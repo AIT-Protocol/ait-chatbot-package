@@ -1,102 +1,140 @@
 .chat_history {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: calc(100% - 48px);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 48px);
 }
 
 .chat_history_content {
-	flex: 1;
-	width: 100%;
-	overflow: hidden;
-	padding: 16px;
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
 }
 
-.chat_history_content>div {
-	height: 100%;
-	overflow: hidden;
+.chat_history_content > div {
+  height: 100%;
+  overflow: hidden;
 }
 
-.chat_history_content>div .infinite_scroll {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	gap: 16px;
-	height: 100% !important;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
+.chat_history_content > div .infinite_scroll {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  height: 100% !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.chat_history_content>div .infinite_scroll::-webkit-scrollbar {
-	display: none;
+.chat_history_content > div .infinite_scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .chat_history_messenger {
-	display: flex;
-	width: 100%;
-	height: 64px;
-	border-top: 1px solid #e8e8e8;
-	padding: 14px 16px;
-	align-items: flex-start;
-	justify-content: space-between;
-	gap: 8px;
-	max-height: 40%;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  border-top: 1px solid #e8e8e8;
+  padding: 14px 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  max-height: 40%;
 }
 
 .chat_history_messenger_input {
-	flex: 1;
-	border-radius: 8px;
-	border: 1px solid #e8e8e8;
-	height: 100%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	gap: 8px;
-	padding: 8px;
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
 }
 
 .chat_history_messenger_input textarea {
-	flex: 1;
-	height: 100%;
-	outline: none;
-	resize: none;
-	overflow: auto;
-	font-family: Inter;
-	font-size: 12px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
+  flex: 1;
+  height: 100%;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .chat_history_messenger_input textarea::placeholder {
-	color: #a9a9bc;
+  color: #a9a9bc;
 }
 
 .chat_history_messenger_input_voice {
-	width: 20px;
-	height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .chat_history_messenger_input_voice:disabled {
-	opacity: 0.5;
-	pointer-events: none;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 .chat_history_messenger_input_voice.listening svg path {
-	fill: red;
+  fill: red;
 }
 
 .chat_history_messenger_submit {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 35px;
-	width: 35px;
-	border-radius: 8px;
-	background: linear-gradient(113deg, #cff8ea 20%, #67e1c0 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 8px;
+  background: linear-gradient(113deg, #cff8ea 20%, #67e1c0 80%);
 }
 
 .chat_history_messenger_submit img {
-	width: 20px;
-	height: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+/* New additions for the specific chat message styling */
+.wrapper .first-inner-container, .wrapper .second-inner-container {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.icon-container, .rounded-icon-container {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-bubble, .answer-bubble {
+  max-width: calc(100% - 48px);
+  width: auto;
+  min-height: 32px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #F8F7F9;
+  border-radius: 12px 4px 12px 12px;
+}
+
+.rounded-icon-container {
+  border-radius: 50%;
+  background: linear-gradient(to right, #00b09b, #96c93d); /* Example gradient */
+}
+
+.answer-bubble {
+  border-radius: 4px 12px 12px 12px;
 }

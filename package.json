@@ -1,6 +1,6 @@
 {
   "name": "ait-albert-chatbot",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
