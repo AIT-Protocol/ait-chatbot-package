@@ -163,20 +163,20 @@ const StepThree: React.FC = memo(() => {
           loader={<></>}
         >
           {chatHistory.map((item) => (
-            <div key={item.question} className="flex flex-col gap-[16px] w-full">
-              <div className="flex gap-[16px] items-start flex-row-reverse justify-start w-full">
-                <div className="w-[32px] h-[32px] flex items-center justify-center">
-                  <img className="w-full h-full" src="https://app.aitprotocol.ai/icons/chatbot-user.svg" alt="User Image" width={32} height={32} />
+            <div key={item.question} className={'chat_history_item'}>
+              <div className={'chat_history_item_top'}>
+                <div className={'chat_history_item_top_img'}>
+                  <img src="https://app.aitprotocol.ai/icons/chatbot-user.svg" alt="User Image" width={32} height={32} />
                 </div>
-                <div className="max-w-[calc(100%-48px)] w-auto min-h-[32px] px-[12px] py-[8px] flex items-center justify-start bg-[#F8F7F9] rounded-[12px_4px_12px_12px]">
+                <div className={'chat_history_item_top_question'}>
                   {item.question}
                 </div>
               </div>
-              <div className="flex gap-[16px] items-start w-full">
-                <div className="w-[32px] h-[32px] flex items-center justify-center rounded-full bg-linear-green">
-                  <img className="w-full h-full" src="https://app.aitprotocol.ai/icons/chat-robot.png" alt="User Image" width={32} height={32} />
+              <div className={'chat_history_item_bottom'}>
+                <div className={'chat_history_item_bottom_img'}>
+                  <img src="https://app.aitprotocol.ai/icons/chat-robot.png" alt="User Image" width={32} height={32} />
                 </div>
-                <div className="max-w-[calc(100%-48px)] w-auto min-h-[32px] px-[12px] py-[8px] flex items-center justify-start bg-[#F8F7F9] rounded-[4px_12px_12px_12px]">
+                <div className={'chat_history_item_bottom_chat'}>
                   <TypingEffect text={item.answer} delay={30} setTimeElapsed={setTimeElapsed} />
                   {item.isLoading && <svg
                     viewBox="8 4 8 16"
