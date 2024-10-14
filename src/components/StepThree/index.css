@@ -109,7 +109,7 @@
 .chat_history_item_top {
   display: flex;
   align-items: center;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
   justify-content: flex-start;
   width: 100%;
   gap: 16px;

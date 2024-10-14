@@ -1,6 +1,6 @@
 {
   "name": "ait-albert-chatbot",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -47,6 +47,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "npm": "npx rollup -c",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
