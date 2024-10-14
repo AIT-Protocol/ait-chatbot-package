@@ -16,7 +16,7 @@ interface IChatHistory {
 }
 
 async function handleChatbotGuest<T>({ question_text }: { question_text: string }): Promise<ApiResponse<T>> {
-  const url = 'https://logicapi-backup.aitprotocol.ai/questions/guest';
+  const url = 'https://logicapi.aitprotocol.ai/questions/guest';
   const options = {
     method: 'POST',
     headers: {
